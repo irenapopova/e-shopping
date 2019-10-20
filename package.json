@@ -1,0 +1,38 @@
+{
+  "name": "shopping-cart",
+  "version": "0.0.1",
+  "homepage": "#",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^2.4.1",
+    "gh-pages": "^0.12.0",
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.1",
+    "react-addons-test-utils": "^15.3.0",
+    "react-scripts": "^0.6.0"
+  },
+  "dependencies": {
+    "material-ui": "^0.17.0",
+    "normalize.css": "^5.0.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^3.0.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "scripts": {
+    "build-css": "node-sass src/ -o src/",
+    "clean": "rm -rf node_modules/gh-pages/.cache",
+    "watch-css": "npm run build-css && node-sass src/ -o src/ --watch",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

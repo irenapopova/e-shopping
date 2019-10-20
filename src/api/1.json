@@ -1,0 +1,11 @@
+{
+	"id": 1,
+	"title": "Summer Dresses in Red and Calico",
+	"price": 45.99,
+	"inventory": 5,
+	"img": "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80",
+	"content": {
+		"details": ["Soft-touch cotton material", "Calico", "Tie sleeve detail", "Relaxed fit", "Designed with care all sizes "],
+		"brand": "Maternity dressing gets bumped up to next-level status with the Maternity edit. Designed by the Berlin-based team to fit you from three months onwards, you can grow your wardrobe alongside your bump with maternity clothes in (EU) sizes, with adjustable fastenings and flexible waistbands."
+	}
+}

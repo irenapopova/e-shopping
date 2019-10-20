@@ -1,0 +1,11 @@
+{
+	"id": 4,
+	"title": "Black Long Dress",
+	"price": 55.99,
+	"inventory": 40,
+	"img": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+	"content": {
+		"details": ["Cotton fabric", "With Jacket", "Long", "Cut-shoulder design"],
+		"brand": "Score a wardrobe win no matter the dress code with our Collection own-label collection. From polished prom to the after party, our Berlin-based design team scour the globe to nail your new-season fashion goals with need-right-now dresses, outerwear, shoes and denim in the coolest shapes and fits."
+	}
+}

@@ -1,0 +1,6 @@
+[
+	{ "id": 1, "title": "Summer Dresses in Read and Calico", "price": 45.99, "inventory": 6, "img": "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" },
+	{ "id": 2, "title": "Evening Dress in Red", "price": 89.99, "inventory": 8, "img": "https://images.unsplash.com/photo-1562964568-192c14d85b6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" },
+	{ "id": 3, "title": "Black Leather Jacket", "price": 65.99, "inventory": 5, "img": "https://images.unsplash.com/photo-1490092374320-1ca36d69ff6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80" },
+	{ "id": 4, "title": "Black Long Dress", "price": 25.99, "inventory": 40, "img": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" }
+]

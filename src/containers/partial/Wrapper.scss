@@ -1,0 +1,28 @@
+$breakpoint-mobile: 640px;
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-family: 'Righteous', sans-serif;
+}
+.container {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+
+	@media (min-width:$breakpoint-mobile) {
+		width: $breakpoint-mobile;
+	}
+}
+.content {
+	margin-bottom: 50px;
+	overflow: auto;
+}
+.bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
