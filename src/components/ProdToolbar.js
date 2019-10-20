@@ -9,7 +9,7 @@ const ProdToolbar = ({ options, selected, onSelectSort, muiTheme }) => (
   <div>
     <Toolbar style={{backgroundColor: 'rgb(250,250,250)'}}>
       <ToolbarGroup>
-        <h2 className="subTitle">New In: Clothing</h2>
+        <h2 className="subTitle">New In: Women Clothing</h2>
       </ToolbarGroup>
       <ToolbarGroup>
         <span className="selectTitle">SORT BY</span>
