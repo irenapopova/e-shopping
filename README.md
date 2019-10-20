@@ -6,7 +6,7 @@ This project template was built with [shopping-cart](https://github.com/reactjs/
 ## Run
 
 In the project directory, you can run:
-### 'npm i'
+### `npm i`
 
 ### `npm start`
 
