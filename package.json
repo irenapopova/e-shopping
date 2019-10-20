@@ -1,7 +1,7 @@
 {
   "name": "shopping-cart",
   "version": "0.0.1",
-  "homepage": "#",
+  "homepage": "https://irenapopova.github.io/e-shopping/",
   "private": true,
   "devDependencies": {
     "enzyme": "^2.4.1",
