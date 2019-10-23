@@ -8,7 +8,7 @@ const Product = ({ price, quantity, title, inventory, img, ImgStyle }) => (
       <h2 className="prodTitle">{title}</h2>
       <div className="priceBox">
         <span className="inventory">only {inventory} left</span>
-        <span className="price">{`\$  ${price}`}</span>
+        <span className="price"> €{price}</span>
       </div>
     </div>
   </div>

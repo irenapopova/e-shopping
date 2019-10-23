@@ -17,7 +17,7 @@ const setup = props => {
 describe('ProductsList component', () => {
   it('should render title', () => {
     const { h3 } = setup({ title: 'Test Products' })
-    expect(h3.text()).toMatch(/^Test Products$/)
+    expect(h3.text()).toMatch(/^Test Products€/)
   })
 
   it('should render children', () => {

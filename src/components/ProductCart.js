@@ -16,7 +16,7 @@ const ProductCart = ({ price, quantity, title, inventory, img, onRemoveFromCartC
         delete_forever
       </IconButton>
       <h2 className="prodTitle">{title}</h2>
-      <span className="">{`\$${price}`}</span>
+      <span className="">€{price}</span>
       <SelectField
         fullWidth
         style={{marginTop: '-10px'}}

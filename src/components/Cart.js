@@ -25,7 +25,9 @@ const Cart = ({ products, total, onCheckoutClicked, removeFromCart, changeQty })
     <div>
       <h3>Your Cart</h3>
       <div>{nodes}</div>
-      <p>Total: &#36;{total}</p>
+     { /* I changed syntax to get the right currency symbol and the props  */}
+      
+      <p>Total: €{total}</p>
       <RaisedButton
         secondary
         style={{width: '180px'}}

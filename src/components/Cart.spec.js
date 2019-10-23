@@ -25,7 +25,8 @@ const setup = (total, products = []) => {
 describe('Cart component', () => {
   it('should display total', () => {
     const { p } = setup('76')
-    expect(p.text()).toMatch(/^Total: \€76/)
+    expect(p.text()).toMatch(/^Total: \€
+      76/)
   })
 
   it('should display add some products message', () => {
